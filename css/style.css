@@ -1,0 +1,776 @@
+nav ul {
+    display: flex;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.422);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: solid 0.9px rgba(0, 0, 0, 0.221);
+    border-left: solid 0.9px rgba(0, 0, 0, 0.289);
+    border-right: solid 0.9px rgba(0, 0, 0, 0.289);
+}
+
+nav ul li:hover {
+    transform: scale(1.07);
+    transition: transform .2s;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 150px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+
+}
+
+div.user {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+div.recherche {
+    display: flex;
+    width: 100%; 
+    padding-left: 170px;
+    padding-top: 2.8px;
+}
+
+div.recherche textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 300px;
+    border-color: rgba(0, 0, 0, 0.69);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 24px;
+    display: none;
+}
+
+textarea::placeholder {
+    font-size: 13px;
+}
+
+textarea {
+    resize: none;
+  }
+
+ul a img.account {
+    padding-top: 15px;
+    height: 25px;
+
+}
+
+ul a img.reservation {
+    height: 55px;
+}
+
+ul a img.search {
+    padding-top: 18px;
+    padding-right: 20px;
+    height: 20px;
+
+}
+
+div.now {
+    justify-content: center;
+}
+
+div.now h2 {
+    padding-left: 540px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+hr.ddm {
+    width: 300px;
+}
+
+div.presentation {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+div.presentation a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-top: 220px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+div.image1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../image/voyage1.jpg);
+    border-radius: 40px;
+    background-size: cover;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527))
+}
+
+div.image1:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+div.image1 a:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+div.image1 img {
+    max-height: 60px;
+    width: 100px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(0.7px);
+    border-radius: 10px;
+}
+
+div.image2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../image/voyage2.jpg);
+    border-radius: 40px;
+    background-size: cover;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527))
+}
+
+div.image2 img {
+    max-height: 60px;
+    width: 100px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(0.7px);
+    border-radius: 10px;
+}
+
+div.image2:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+div.image2 a:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+
+div.image3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../image/voyage3.jpg);
+    border-radius: 40px;
+    background-size: cover;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527))
+}
+
+div.image3 img {
+    max-height: 60px;
+    width: 100px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(0.7px);
+    border-radius: 10px;
+}
+
+div.image3:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+div.image3 a:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+hr.sep {
+    color: rgba(159, 159, 159, 0.116);
+    width: 1000px;
+}
+
+div.pub h2 {
+    padding-left: 330px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+hr.pav {
+    width: 720px;
+    margin-bottom: 70px;
+}
+
+div.loc1 {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-image: url(../image/volcan.jpg);
+    width: 101%;
+    height: 500px;
+}
+
+img.volcan {
+    border-radius: 40px;
+    background-size: cover;
+    margin: 15px;
+    width: 500px;
+    height: 300px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527));
+}
+
+img.volcan:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+
+div.loc1 h3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+div.loc1 h3:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+div.loc1 p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.loc1 p:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+div.loc1 h2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+div.loc2 {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-image: url(../image/grotte.jpeg);
+    width: 101%;
+    height: 500px;
+}
+
+img.grotte {
+    border-radius: 40px;
+    background-size: cover;
+    margin: 15px;
+    width: 500px;
+    height: 300px;
+    filter: drop-shadow(5px 5px 5px rgba(181, 181, 181, 0.527));
+}
+
+img.grotte:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+div.loc2 h3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+div.loc2 h3:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+div.loc2 p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.loc2 p:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+div.loc3 {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-image: url(../image/fond_marin2.jpg);
+    width: 101%;
+    height: 500px;
+}
+
+img.fond_marin {
+    border-radius: 40px;
+    background-size: cover;
+    margin: 15px;
+    width: 450px;
+    height: 300px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.726));
+}
+
+img.fond_marin:hover {
+    transform: scale(1.055);
+    transition: transform .2s
+}
+
+
+div.loc3 h3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+
+div.loc3 h3:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+div.loc3 p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.loc3 p:hover {
+    transform: scale(1.07);
+    transition: transform .2s
+}
+
+div.loc3 h2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(25, 25, 25, 0.956);
+    height: 101%;
+    width: 101%;
+}
+
+
+div.reseaux ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+div.reseaux ul li {
+    margin: 40px;
+}
+
+div.reseaux ul li:hover {
+    transform: scale(1.2);
+    transition: transform .2s
+}
+
+img.facebook {
+    height: 90px;
+}
+
+img.instagram {
+    height: 92px;
+}
+
+img.X {
+    height: 90px;
+}
+
+div.info {
+    padding-bottom: 30px;
+}
+
+div.info ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+div.info ul li:hover {
+    transform: scale(1.1);
+    transition: transform .2s
+}
+
+div.info ul li a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+div.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    height: 50px;
+    color: white;
+}
+
+/* Desttination Polynésie */
+
+div.polinesie ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+img.dest_pol {
+    display: flex;
+    border-radius: 40px;
+    background-size: cover;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.719))
+}
+
+hr.vertical {
+    margin-left: 50px;
+    border: none;
+    border-left: 2px solid rgba(110, 110, 110, 0.208);
+    height: 780px;
+    width: 1px;
+}
+
+hr.horizontal {
+    width: 850px;
+    color: rgba(110, 110, 110, 0.208);
+}
+
+div.description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.description li h2 {
+    margin-left: 00px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-align: center;
+}
+
+div.description li p {
+    margin: 20px;
+    color: rgb(95, 95, 95);
+}
+
+div.butt_res {
+    margin-left: 80px;
+}
+
+div.butt_res button {
+    background: rgb(141, 123, 255);
+    background: linear-gradient(90deg, rgba(141, 123, 255, 1) 0%, rgba(36, 70, 255, 1) 100%);
+    color: rgba(0, 0, 0, 0.647);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 50px;
+    border: none;
+    filter: drop-shadow(2px 0px 5px rgba(0, 0, 0, 0.763))
+}
+
+img.etoile_p {
+    margin-left: 310px;
+    height: 45px;
+    width: 250px;
+}
+
+/* Desttination Cambodge */
+
+div.cambodge ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+img.dest_cam {
+    display: flex;
+    border-radius: 40px;
+    background-size: cover;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.732))
+}
+
+img.etoile_c {
+    margin-left: 300px;
+    height: 45px;
+    width: 250px;
+}
+
+/* Desttination Grèce */
+
+div.grece ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+img.dest_gre {
+    display: flex;
+    border-radius: 40px;
+    background-size: cover;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.732))
+}
+
+img.etoile_g {
+    margin-left: 300px;
+    height: 45px;
+    width: 250px;
+}
+
+
+
+
+/* Destination */
+
+div.dest {
+    display: flex;
+}
+
+
+
+/*Maldives*/
+div.dest1 h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    -webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.441);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    
+}
+
+div.dest1 {
+    background-image: url(../image/maldive.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+div.img_mald {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+div.img_mald:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+div.dest1:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+img.mald {
+    border-radius: 40px;
+    background-size: cover;
+    margin: 15px;
+    width: 450px;
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527));
+}
+
+img.etoile_m {
+    margin-left: 310px;
+    height: 45px;
+    width: 250px;
+}
+
+/* Los Angeles */
+
+div.dest2 h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    -webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.441);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+div.dest2 {
+    background-image: url(../image/LA2.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: right;
+}
+
+div.img_LA {
+    margin-bottom: 40px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+div.img_LA:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+div.dest2:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+img.LA {
+    border-radius: 40px;
+    background-size: cover;
+    margin: 15px;
+    width: 450px;
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527));
+    
+}
+
+img.etoile_la {
+    margin-left: 300px;
+    height: 45px;
+    width: 250px;
+}
+
+/* Italie */
+
+div.dest3 h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    -webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.441);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+div.dest3 {
+    background-image: url(../image/italie.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: right;
+}
+
+div.img_ita {
+    margin-bottom: 40px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+div.dest3:hover {
+    transform: scale(1.08);
+    transition: transform .2s
+}
+
+div.img_ita:hover {
+        transform: scale(1.08);
+        transition: transform .2s
+}
+
+img.ita {
+    border-radius: 40px;
+    background-size: cover;
+    margin: 15px;
+    width: 450px;
+    height: 200px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527));
+    
+    
+}
+
+img.etoile_ita {
+    margin-left: 300px;
+    height: 45px;
+    width: 250px;
+}
