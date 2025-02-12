@@ -8,3 +8,9 @@ search.addEventListener('click', () => {
         txtarea.style.display = 'none';
     }
 });
+
+const del = document.getElementById('del')
+
+del.addEventListener('click', () => {
+    alert('Les serveurs sont occupés réessayer plus tard')
+})
