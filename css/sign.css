@@ -52,8 +52,6 @@ div.connexion input {
 }
 
 div.connexion button {
-
-div.connexion button {
     background: rgb(79,55,242);
     background: linear-gradient(90deg, rgba(79,55,242,1) 0%, rgba(0,37,255,1) 100%);
     color: white;
@@ -68,6 +66,7 @@ div.connexion button {
 
 
 }
+
 div.connexion a {
     display: flex;
     justify-content: center;
