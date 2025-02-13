@@ -10,6 +10,9 @@ nav ul {
 	border-right: solid 0.9px rgba(0, 0, 0, 0.289);
 }
 
+
+
+
 nav ul li {
 	list-style-type: none;
 	padding-top: 20px;
@@ -395,6 +398,12 @@ div.description li p {
 	margin: 20px;
 	color: rgb(43, 43, 43);
 }
+
+li div {
+	display: flex;
+	justify-content: center;
+}
+
 
 div.butt_res {
 	margin-left: 80px;
