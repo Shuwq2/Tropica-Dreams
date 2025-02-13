@@ -124,12 +124,11 @@ div.loc_fond_marin h2{
 
 
 div.now h2 {
-	padding-left: 540px;
+	text-align: center;
 }
 
 div.pub h2 {
-	padding-left: 330px;
-	padding-top: 30px;
+	text-align: center;
 }
 
 hr.ddm {
