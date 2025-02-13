@@ -477,14 +477,20 @@ div.dest_ita {
 
 
 
-div.img_mald:hover,
 div.dest_maldive:hover,
-div.img_LA:hover,
 div.dest_LA:hover,
-div.img_ita:hover,
 div.dest_ita:hover {
 	transform: scale(1.08);
 	transition: transform .2s;
+}
+
+
+div.img_mald:hover,
+div.img_LA:hover,
+div.img_ita:hover{
+	transform: scale(1.08);
+	transition: transform .2s;
+	border-radius: 40px;
 }
 
 
