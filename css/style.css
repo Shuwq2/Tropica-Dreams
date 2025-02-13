@@ -562,6 +562,7 @@ form.contact textarea {
 	width: 400px;
 	height: 100px;
 	border-radius: 10px;
+	resize: none;
 }
 
 form.contact textarea::placeholder {
