@@ -498,7 +498,7 @@ div.dest_ita:hover {
 div.img_mald:hover,
 div.img_LA:hover,
 div.img_ita:hover{
-	transform: (1.2);
+	transform: (1.15);
 	transition: transform .2s;
 	border-radius: 40px;
 }
@@ -513,11 +513,11 @@ div.img_ita {
 }
 
 div.img_mald {
-	margin-top: 40px;
+	
 }
 
 div.img_LA {
-	margin-top: 50%;
+	margin-top: 47%;
 
 }
 
