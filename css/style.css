@@ -37,7 +37,7 @@ nav li img {
 div.img_polynesie:hover,
 div.img_cambodge:hover,
 div.img_grece:hover {
-	transform: scale(1.08);
+	transform: (1.08);
 	transition: transform .2s;
 }
 
@@ -107,7 +107,7 @@ div.loc_grotte p:hover,
 img.fond_marin:hover,
 div.loc_fond_marin h3:hover,
 div.loc_fond_marin p:hover {
-	transform: scale(1.08);
+	transform: (1.08);
 	transition: transform .2s;
 }
 
@@ -243,7 +243,7 @@ img.fond_marin {
 }
 
 img.fond_marin:hover {
-	transform: scale(1.055);
+	transform: (1.055);
 	transition: transform 0.2s;
 }
 
@@ -490,7 +490,7 @@ div.dest_ita {
 div.dest_maldive:hover,
 div.dest_LA:hover,
 div.dest_ita:hover {
-	transform: scale(1.08);
+	transform: (1.05);
 	transition: transform .2s;
 }
 
@@ -498,7 +498,7 @@ div.dest_ita:hover {
 div.img_mald:hover,
 div.img_LA:hover,
 div.img_ita:hover{
-	transform: scale(1.08);
+	transform: (1.2);
 	transition: transform .2s;
 	border-radius: 40px;
 }
@@ -609,7 +609,7 @@ form.contact textarea::placeholder {
 	margin: 50px;
 	border: none;
 	filter: drop-shadow(2px 0px 5px rgba(0, 0, 0, 0.527));
-	transform: scale(1.05);
+	transform: (1.05);
 	transition: 0.1s;
 	
 }
